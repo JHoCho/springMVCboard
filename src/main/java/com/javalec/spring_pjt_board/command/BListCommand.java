@@ -1,5 +1,13 @@
 package com.javalec.spring_pjt_board.command;
 
-public class BListCommand {
+import org.springframework.ui.Model;
+
+public class BListCommand implements BCommand{
+
+	@Override
+	public void excute(Model model) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
