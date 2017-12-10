@@ -1,5 +1,13 @@
 package com.javalec.spring_pjt_board.dao;
 
-public class FirebaseDAO {
+import java.util.ArrayList;
 
+import com.javalec.spring_pjt_board.dto.BDto;
+
+public class FirebaseDAO {
+	public ArrayList<BDto> list() {
+		ArrayList<BDto> dtos = null;
+		
+		return dtos;
+	}
 }
