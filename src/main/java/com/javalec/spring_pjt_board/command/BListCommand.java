@@ -6,7 +6,7 @@ import org.springframework.ui.Model;
 
 import com.javalec.spring_pjt_board.dao.FirebaseDAO;
 import com.javalec.spring_pjt_board.dto.BDto;
-
+//서비스객체인데 이름잘못만듬.
 public class BListCommand implements BCommand{
 
 	@Override

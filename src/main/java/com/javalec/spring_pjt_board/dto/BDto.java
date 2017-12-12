@@ -9,6 +9,7 @@ public class BDto {
 	String bTitle;
 	Timestamp bDate;
 	// Date하위객체인 timeStamp
+	String bContent;
 	int bHit;
 	int bGroup;
 	int bStep;
@@ -17,16 +18,28 @@ public class BDto {
 	public BDto() {
 
 	}
-	public BDto(int bId, String bName, String bTitle,Timestamp bDate,int bHit,int bGroup,int bStep,int bIndent) {
+
+	public BDto(int bId, String bName, String bTitle, Timestamp bDate, String bContent, int bHit, int bGroup, int bStep,
+			int bIndent) {
 		this.bId = bId;
 		this.bName = bName;
 		this.bTitle = bTitle;
 		this.bDate = bDate;
+		this.bContent = bContent;
 		this.bHit = bHit;
 		this.bGroup = bGroup;
 		this.bStep = bStep;
 		this.bIndent = bIndent;
 	}
+	
+	public String getbContent() {
+		return bContent;
+	}
+
+	public void setbContent(String bContent) {
+		this.bContent = bContent;
+	}
+
 	public int getbId() {
 		return bId;
 	}
